@@ -35,3 +35,15 @@ console.log(Object.keys(obj1))
 console.log(Object.values(obj1))
 
 console.log(obj1.hasOwnProperty('a'))
+
+// object destructure
+const cource = {
+    courceName : 'Web Development',
+    price: 299,
+    courceInstructor: 'Ajay Negi'
+}
+
+console.log(cource.courceInstructor)  // simple print to value
+
+const {courceInstructor : instructor} = cource
+console.log(instructor)
