@@ -35,3 +35,14 @@ function calculateCardPrice(...val){
   return val
 }
 console.log(calculateCardPrice(200,300,400,500));
+
+
+//funtion with condition
+function loginUserMessage(username){
+if(!username){
+    return 'Please! enter a username'
+}
+  return `${username} you just logged in`
+}
+const isUserLoggedIn = loginUserMessage('ajay negi')
+console.log(isUserLoggedIn);
