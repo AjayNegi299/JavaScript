@@ -88,5 +88,5 @@ const ContactCard2 ={
 }
 
 ContactCard2.ShowDetails2()
-ContactCard2.UpdatePhone(7042261647)
+ContactCard2.UpdatePhone(999013544)
 ContactCard2.ShowDetails2()
