@@ -14,7 +14,6 @@ const result = addTwoNumber(7,6)
 console.log(result);
 
 //checkguessGame using javaScript Function
-
 function checkguess(guessNumber,randomNumber){
     if(guessNumber===randomNumber){
         return `you guess the correct number ${guessNumber}`
