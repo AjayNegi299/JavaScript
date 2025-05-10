@@ -36,3 +36,21 @@ switch (month) {
         break;
 }
 
+// how to find array is empty
+
+const myArray = []
+if(myArray.length==0){
+console.log('Array is empty');
+}
+
+//how to find object is empty
+
+const myObj ={}
+if(Object.keys(myObj).length==0){
+    console.log('object is empty');
+}
+
+//-----ternary operator-----
+
+const age = 19
+age>18 ? console.log('you are eligible for vote'):console.log("sorry! you are not eligible");
