@@ -55,11 +55,11 @@ const contactCard = {
     email: "ajay@example.com",
     address: "123 Main Street, New Delhi",
     showDetails: function() {
-        // console.log("Contact Details:");
-        // console.log("Name: " + this.name);
-        // console.log("Phone: " + this.phone);
-        // console.log("Email: " + this.email);
-        // console.log("Address: " + this.address);
+        console.log("Contact Details:");
+        console.log("Name: " + this.name);
+        console.log("Phone: " + this.phone);
+        console.log("Email: " + this.email);
+        console.log("Address: " + this.address);
     }
 };
 
