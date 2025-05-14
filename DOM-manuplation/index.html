@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .bg-color{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-color">
+    <h1 id="title" class="heading">DOM Learning</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <script>
+        document.getElementById('title') 
+        document.getElementById('title').getAttribute('id') //get attribute details
+        document.getElementById('title').setAttribute('class','test') //overright the class
+        const titles = document.getElementById('title')
+        titles.style.backgroundColor ='red' // target the element then change the color
+        titles.style.padding = '10px'
+        titles.style.margin = '10px'
+        titles.style.borderRadius = '20px'
+        
+        titles.innerText // innerText only content which is visible but 
+        titles.textContent // textContent also shows the hidden content
+
+    </script>
+</body>
+</html>

@@ -56,7 +56,7 @@ for (const [key,value] in mymap) {
 //-----------For Each---------
 
 const coding = ['javascript','Java','CPP','Python']
-coding.forEach(function (item){        //Method one
+coding.forEach(function (item){         //Method one
     // console.log(item);
 })
 
