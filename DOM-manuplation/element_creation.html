@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Elecment Creation</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    //create a element in DOM
+   const div = document.createElement('div')
+   console.log(div);
+   div.className = "#main"
+   div.id = Math.round(Math.random()*10+1)
+   div.setAttribute('title','generated title')
+   div.style.backgroundColor = 'red'
+   div.style.color = 'white'
+   div.style.fontSize = '55px'
+   div.style.padding = '50px'
+   div.style.display ='flex'
+   div.style.justifyContent ='center'
+   div.style.border = '3px black solid'
+   div.innerHTML = 'ajay negi'
+   const news= document.createTextNode('ajay negi')
+   document.body.appendChild(div)
+</script>
+</html>
