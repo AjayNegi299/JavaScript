@@ -1,0 +1,28 @@
+.container{
+  width: 575px;
+  min-height: 500px;
+  background-color: #212121;
+  color: white;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+#height,
+#weight {
+  width: 150px;
+  height: 20px;
+}
+button{
+    width: 170px;
+    height: 35px;
+    font-size: 25px;
+    margin: 10px auto;
+    margin-left: 30px;
+}
+
+#result{
+  color: white;
+  font-size: 25px;
+  margin: 20px 0px;
+  margin-left: 20px;
+}
