@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter app</title>
+</head>
+<style>
+    body{
+        /* background-color: #212121; */
+        color: white;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;  
+        margin: 0;
+        padding: 0;
+      
+    }
+    .container{
+         width: 300px;
+         height: 200px;
+         padding: 20px;
+         background-color: rgb(188, 222, 140);
+         box-shadow: 1px 1px 4px 2px rgb(103, 91, 91);
+        
+    }
+
+    .container > span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        color: black;
+        margin-left: 50px;
+        font-weight: bold;
+    }
+    #display{
+        font-size: 35px;
+        margin-left: 40%;
+        font-weight: bold;
+        color: black;
+        margin-block: 20px;
+    }
+    button{
+        margin-left: 35px;
+        padding: 10px 12px;
+        font-size: 15px;
+        background-color: orange;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <span>Counter App</span>
+         <div id="display">0</div>
+         <button class="btn decrease" onclick="decrease()">-</button>
+         <button class="btn reset" onclick="reset()">Reset</button>
+         <button class="btn increase" onclick="increase()">+</button>
+
+    </div>
+</body>
+<script>
+    let counter = 0
+   
+    function uploadDisplay() {
+       document.getElementById('display').innerHTML = counter
+    }
+    function decrease() {
+        counter--
+        uploadDisplay()
+    }
+      function reset() {
+        counter = 0
+        uploadDisplay()
+    }
+      function increase() {
+        counter++
+        uploadDisplay()
+    }
+
+    
+</script>
+</html> 
