@@ -70,3 +70,4 @@ myArr.forEach((val)=>{
     }
 })
 console.log(arr2);
+

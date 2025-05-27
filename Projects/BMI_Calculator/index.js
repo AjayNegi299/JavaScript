@@ -18,3 +18,4 @@ else{
   result.innerHTML =  `${BMI}`
 }
 })
+

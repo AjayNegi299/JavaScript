@@ -17,8 +17,9 @@ html{
 
 }
 
-#grey{
-    background-color: grey;
+
+#greenyellow{
+    background-color: greenyellow;
 }
 
 #red{
@@ -28,5 +29,8 @@ html{
     background-color: blue;
 }
 #yellow{
-    background-color: yellow;
+    background-color: rgb(227, 227, 48);
+}
+#purple{
+    background-color: purple;
 }
