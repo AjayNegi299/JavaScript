@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 0px 0px 4px black;
+    margin: 60px auto;    
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    }
+#box1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+
+}
+#box1 input{
+   font-size: 1rem;
+   padding: 5px;
+   width: 16rem;
+}
+
+#box1 button{
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(7, 123, 218);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
