@@ -20,4 +20,5 @@ const div = document.getElementById("rect");
 
       // Position the div so that its center is at mappedCenterX
       div.style.left = `${mappedCenterX}px`;
+      
     });
