@@ -10,7 +10,7 @@ rect.addEventListener("mousemove", (mouse) => {
     const mappedValue = mapRange(
       mouseLocation,
       0,
-      rectLocation.width / 2,
+      rectLocation.width / 2,  
       255,
       0
     );
@@ -22,7 +22,11 @@ rect.addEventListener("mousemove", (mouse) => {
       rectLocation.width,
       0,
       255
-    );
+    ); 
     rect.style.backgroundColor = `rgb(0,0,${Math.round(mappedValue)})`;
   }
+  rect.addEventListener("mouseleave", () => {
+  rect.style.backgroundColor = "white";
 });
+});
+  
