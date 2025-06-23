@@ -20,7 +20,7 @@ const calculate = function(side,logic){
     return output
 }
 
-// console.log(side.map(area))
+console.log(side.map(area))
 console.log(calculate(side,area));
 console.log(calculate(side,perimeter));
 console.log(calculate(side,Volume));
