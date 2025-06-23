@@ -5,13 +5,13 @@ In this repo, I cover the entire JavaScript syllabus — from basic concepts to 
 
 📚 What’s Included?
 
-✅ Basics (variables, data types, operators)
-✅ Functions & Scope
-✅ Arrays & Objects
-✅ Loops & Conditionals
-✅ DOM Manipulation
-✅ Events
-✅ ES6+ Features
-✅ Asynchronous JavaScript (Promises, Async/Await)
-✅ Error Handling
-✅ Project-Based Practice
+✅ Basics (variables, data types, operators)  
+✅ Functions & Scope  
+✅ Arrays & Objects  
+✅ Loops & Conditionals  
+✅ DOM Manipulation  
+✅ Events  
+✅ ES6+ Features  
+✅ Asynchronous JavaScript (Promises, Async/Await)  
+✅ Error Handling  
+✅ Project-Based Practice  
